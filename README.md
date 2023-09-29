@@ -7,6 +7,7 @@ Abdominal trauma is among the most common types of traumatic injury, with the mo
 Prompt diagnosis of abdominal trauma using medical imaging is thus critical to patient care. AI tools that assist and expedite the diagnosis of abdominal trauma have the potential to substantially improve patient care and health outcomes in the emergency setting.
 
 Why this project?
+
 Well, Biomedical imaging or Computed Tomography scans (CT Images) analysis is relevant and presents many specific challenges I was not aware of to work with. Below are the main challenges I faced:
 1. Specific medical image format: Biomedical imaging uses DICOM and NIFTI formats. The main difference between these two formats is that the DICOM format has multiple 2D image slices which together form a 3D image, whereas the NIfTI format has only one file that contains the 3D image.
 2. Data annotation: Medical image data often requires expert annotation, which can be time-consuming and expensive. Additionally, there can be variations in annotation quality and consistency, which can affect the performance of the segmentation model.
